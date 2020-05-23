@@ -1,14 +1,14 @@
 import React , { Fragment , useEffect} from 'react';
-import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { getCity } from '../../actions/city'
 import City from './City';
-import {Container, Row , Col ,Button} from 'react-bootstrap';
+import {Container, Row , Col} from 'react-bootstrap';
 
 const Dashboard = ({ getCity ,  isAuthenticated , city:{ cities , loading} }) => {
   useEffect(() => {
     getCity();
+    //eslint-disable-next-line
 }, []);
 
   return (
