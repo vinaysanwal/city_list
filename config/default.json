@@ -1,4 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://sanwalvinay:crtkropnst@123@nerdytech-mxvdw.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
+    "mongoURI": "mongodb+srv://vinay:atlasadminxyz@1234abc@cluster0-lpfpr.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "tokensecret"
 }
+
+

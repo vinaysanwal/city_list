@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const CuserSchema = new mongoose.Schema({
+const UserSchema = new mongoose.Schema({
      name: {
          type: String,
          required: true
@@ -22,4 +22,4 @@ const CuserSchema = new mongoose.Schema({
 });
 
 
-module.exports = Cusers = mongoose.model('Cusers', CuserSchema);
+module.exports = Cusers = mongoose.model('users', UserSchema);

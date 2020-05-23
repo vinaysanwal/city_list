@@ -19,16 +19,9 @@ app.use(expressip().getIpInfoMiddleware);
 
 
 //Define Routes 
-app.use('/api/users' , require('./routes/api/users'))
-app.use('/api/cusers' , require('./routes/api/cusers'))
-app.use('/api/programming' , require('./routes/api/programming'))
-app.use('/api/jobs' , require('./routes/api/jobs'))
-app.use('/api/ip' , require('./routes/api/Ip'))
-app.use('/api/tools' , require('./routes/api/tools'))
-app.use('/api/profile' , require('./routes/api/profile'))
+app.use('/api/users' , require('./routes/api/user'))
 app.use('/api/auth' , require('./routes/api/auth'))
-app.use('/api/wauth' , require('./routes/api/wauth'))
-app.use('/api/client' , require('./routes/api/stripe_app'))
+app.use('/api/city_list' , require('./routes/api/city'))
 
 
 const PORT = process.env.PORT || 5000;

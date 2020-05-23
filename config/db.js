@@ -10,6 +10,8 @@ const connectDB = async () => {
           useCreateIndex : true,
           useFindAndModify: false
       });
+
+      console.log("database connected");
     }catch(err){
        console.log(err.message);
        process.exit(1);
