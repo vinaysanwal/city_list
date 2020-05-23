@@ -50,7 +50,7 @@ const Register = ({ setAlert  , register , isAuthenticated }) => {
                   <Form.Group controlId="formBasicEmail">
                       <Form.Control type="email" placeholder="Enter email" name="email" value={email} onChange={e => onchange(e)}/>
                       <Form.Text className="text-muted">
-                          We'll never share your email with anyone else.
+                         **Email will be your username**
                           </Form.Text>
                    </Form.Group>
                    <Form.Group controlId="formBasicPassword">
